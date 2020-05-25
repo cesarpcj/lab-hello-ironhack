@@ -11,12 +11,48 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.header {
+  width: 450px;
+}
+
+.header h1 {
+  font-size: 5rem;
+  line-height: 5rem;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav img {
+  margin: 30px;
+}
+
+.bottom {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.bottom-item {
+  display: flex;
+  flex-direction: column;
 }
